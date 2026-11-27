@@ -1,0 +1,6 @@
+本批图片按方格绘制。Hello Kitty、美乐蒂、布丁狗和大耳狗为 Sanrio 角色，本项目中的图案是课程展示用的自行绘制版本。
+题材调研参考 Kawada 官方 Hello Kitty 入门套装、美乐蒂入门套装，以及公开的蘑菇、鲷鱼烧、水果等图案目录。
+https://www.kawada-toys.com/brand/perlerbeads/catalog/80-53511/
+https://www.kawada-toys.com/brand/perlerbeads/catalog/80-53544/
+https://www.kawada-toys.com/brand/perlerbeads/download/
+Hello Kitty 卡通参考图为 AI 生成的课程描摹素材，角色属于 Sanrio。

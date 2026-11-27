@@ -1,0 +1,9 @@
+.tile-cover.portrait-tile{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:#eee9d9}.portrait-tile>span{display:grid;grid-template-rows:minmax(0,1fr) auto;height:100%;min-width:0;overflow:hidden;background:#f6f2e7}.portrait-tile small{padding:3px;background:#e6eadd;font-weight:600;font-size:11px}.portrait-tile canvas,.portrait-tile img{object-fit:contain}.ref-toolbar,.ref-settings{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:14px}.ref-toolbar{margin:0 0 16px}.ref-settings{margin-top:12px}.ref-settings label{white-space:nowrap}.ref-square{aspect-ratio:1;position:relative;background:repeating-conic-gradient(#efece2 0 25%,#faf8ef 0 50%) 0/20px 20px}.ref-square img{width:100%;height:100%;object-fit:contain;display:block}.ref-square i{position:absolute;border:1px solid white;outline:1px solid black;pointer-events:none}
+.work:has(.ref-panel:not([hidden])){grid-template-columns:minmax(140px,.75fr) minmax(165px,1.1fr) minmax(285px,2.5fr) minmax(150px,.75fr)}#exportBeads{font-size:13px;margin-top:8px}.ref-settings button,.ref-toolbar button{font-size:14px}
+@media(max-width:1050px){.work:has(.ref-panel:not([hidden])){grid-template-columns:145px minmax(160px,1fr) minmax(275px,2fr)}.work:has(.ref-panel:not([hidden])) .right{grid-column:1/-1;display:flex;flex-wrap:wrap}.right>.panel{min-width:0}}
+@media(max-width:700px){.work:has(.ref-panel:not([hidden])){display:flex;flex-direction:column}.work:has(.ref-panel:not([hidden]))>*{width:100%}.ref-square{max-width:210px;margin:auto}}
+
+#tracePhoto{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none}
+#surface.tracing{background:#fffaf0}
+#surface.tracing #canvas{position:relative;background:transparent}
+#traceAdjust{display:inline-flex;align-items:center;gap:5px}#traceOpacity{width:95px}#traceValue{min-width:3em}
